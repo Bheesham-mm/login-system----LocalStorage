@@ -33,8 +33,19 @@ function submitData() {
         userEmail.value = '';
         userPassword.value = '';
 
+        // get storage
+        var storageCheck = JSON.parse(localStorage.getItem('All users'))
+        console.log(storageCheck)
         // open home
-        window.location.href = './login.html'
+        var user = storageCheck.find(function (user) {
+            return user.email === userEmail.value;
+        });
+        if (user) {
+            window.location.href = './login.html'
+            console.log(storageCheck)
+        } else {
+            alert('your account is already registered?');
+        }
     }
 }
 //  password hide show
