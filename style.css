@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f8ff;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.link-text {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link-text a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.link-text a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.hide_show {
+    position: absolute;
+    margin-top: -2.4pc;
+    margin-left: 18.4pc;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 8px;
+
+}
+
+.error {
+    color: rgba(255, 0, 0, 0.759);
+}

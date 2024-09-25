@@ -1,0 +1,22 @@
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.dropdown {
+    margin-right: 5pc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button_logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6px 42px !important;
+}
