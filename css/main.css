@@ -20,3 +20,27 @@ li {
     text-align: center;
     padding: 6px 42px !important;
 }
+
+.notification_box {
+    position: absolute;
+    background: #e3e8eda6;
+    width: 65vh;
+    height: 68vh;
+    right: 4pc;
+    border-radius: 6px;
+    top: 45px;
+    border: 2px solid #80808038;
+    box-shadow: 8px 10px 12px powderblue;
+    display: none;
+}
+
+.notification_1 {
+    background: #f5deb37a;
+    padding: 3px 11px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#margin-0 {
+    margin: 0;
+}
