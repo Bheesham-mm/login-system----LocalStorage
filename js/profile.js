@@ -47,7 +47,7 @@ if (storData) {
 
 // logout
 function logout() {
-    window.location.href = 'login.html'
+    window.location.href = './index.html'
     console.log('ready')
 }
 // var usersArray = JSON.parse(storData)
